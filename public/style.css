@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+margin: 0;
+font-family: 'Inter', sans-serif;
+/* background-color:lightblue */
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color:white;
+  height: 80px;
+  padding: 30px 25 px;
+}
+.nav--log-text,.nav--project-title{
+  margin: 0;
+}
+.nav--logo-text{
+  margin-right: auto;
+  color:brown;
+  /* font-weight: 700; */
+  font-size: 32px;
+}
+
+.nav--project-title{
+  margin-right: auto;
+  color:burlywood;
+  font-weight: 600;
+  font-size: 30px;
+}
+.nav--icon{
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+main{
+  background-color:lightblue;
+  padding: 57px 27px;
+  color:white;
+  background-image:url("logo512.png");
+  background-repeat:no-repeat;
+  background-position-x:140%;
+  background-position-y:center;
+}
+.main--title{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main--facts{
+  margin-top: 46px;
+}
+.main--facts > li{
+line-height: 25px;
+padding-block: 3px;
+}
+.main--facts > li::marker{
+  font-size: 1.4rem;
+  color:rgb(35, 19, 118);
+  }
+
+ .section--lower {
+  padding: 20px 15px;
+  display: flex;
+  background-color: rgb(225, 225, 139);
+ }
+ section {
+  /* background-color:lightblue ; */
+  padding: 1px 1px;
+  color:white;
+ }
+ section img {
+ width: 25%;
+ padding: 10px 10px;
+ }
+
+ .section--upper {
+  background-color:lightblue;
+  padding: 1px 1px;
+  color:white;
+ }
+
